@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ console.log("Hello")
+fetch('http://localhost:3001/getVideoURLbyVideoId')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+
+
+// api url
+// const api_url = 
+//       "http://localhost:3001/getVideoURLbyVideoId";
+  
+// // Defining async function
+// async function getapi(url) {
+//     console.log("data is here")
+
+//     // Storing response
+//     const response = await fetch(url);
+    
+//     // Storing data in form of JSON
+
+//     var data = await response.json();
+//     console.log("data is")
+//     console.log(data);
+//     if (response) {
+//         hideloader();
+//     }
+// }
+// // Calling that async function
+// getapi(api_url);
+
+
+
+
+
+        // fetch("http://localhost:3001/getVideoURLbyVideoId").then(res => res  = res.json() )
+        // .then(data =>{
+        //     console.log("Hello")
+        //      console.log(data)
+        // })
+        </script>
+</body>
+</html>
